@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicatieTipAgenda", "AplicatieTipAgenda\AplicatieTipAgenda.csproj", "{90B26391-08CC-4312-83BA-5CA43B0FBB48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfataUtilizator_WindowsForms", "InterfataUtilizator_WindowsForms\InterfataUtilizator_WindowsForms.csproj", "{29AD9E13-125A-4656-AA68-00B69EAE1D63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90B26391-08CC-4312-83BA-5CA43B0FBB48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B26391-08CC-4312-83BA-5CA43B0FBB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B26391-08CC-4312-83BA-5CA43B0FBB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B26391-08CC-4312-83BA-5CA43B0FBB48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29AD9E13-125A-4656-AA68-00B69EAE1D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29AD9E13-125A-4656-AA68-00B69EAE1D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29AD9E13-125A-4656-AA68-00B69EAE1D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29AD9E13-125A-4656-AA68-00B69EAE1D63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A34737C-B6AE-4DE1-98FA-8C625EAD64E2}
+	EndGlobalSection
+EndGlobal

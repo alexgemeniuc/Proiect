@@ -1,0 +1,14 @@
+C:\Users\Hp\source\repos\AplicatieTipAgenda\AplicatieTipAgenda\bin\Debug\net8.0\AplicatieTipAgenda.exe
+C:\Users\Hp\source\repos\AplicatieTipAgenda\AplicatieTipAgenda\bin\Debug\net8.0\AplicatieTipAgenda.deps.json
+C:\Users\Hp\source\repos\AplicatieTipAgenda\AplicatieTipAgenda\bin\Debug\net8.0\AplicatieTipAgenda.runtimeconfig.json
+C:\Users\Hp\source\repos\AplicatieTipAgenda\AplicatieTipAgenda\bin\Debug\net8.0\AplicatieTipAgenda.dll
+C:\Users\Hp\source\repos\AplicatieTipAgenda\AplicatieTipAgenda\bin\Debug\net8.0\AplicatieTipAgenda.pdb
+C:\Users\Hp\source\repos\AplicatieTipAgenda\AplicatieTipAgenda\obj\Debug\net8.0\AplicatieTipAgenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\source\repos\AplicatieTipAgenda\AplicatieTipAgenda\obj\Debug\net8.0\AplicatieTipAgenda.AssemblyInfoInputs.cache
+C:\Users\Hp\source\repos\AplicatieTipAgenda\AplicatieTipAgenda\obj\Debug\net8.0\AplicatieTipAgenda.AssemblyInfo.cs
+C:\Users\Hp\source\repos\AplicatieTipAgenda\AplicatieTipAgenda\obj\Debug\net8.0\AplicatieTipAgenda.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\AplicatieTipAgenda\AplicatieTipAgenda\obj\Debug\net8.0\AplicatieTipAgenda.dll
+C:\Users\Hp\source\repos\AplicatieTipAgenda\AplicatieTipAgenda\obj\Debug\net8.0\refint\AplicatieTipAgenda.dll
+C:\Users\Hp\source\repos\AplicatieTipAgenda\AplicatieTipAgenda\obj\Debug\net8.0\AplicatieTipAgenda.pdb
+C:\Users\Hp\source\repos\AplicatieTipAgenda\AplicatieTipAgenda\obj\Debug\net8.0\AplicatieTipAgenda.genruntimeconfig.cache
+C:\Users\Hp\source\repos\AplicatieTipAgenda\AplicatieTipAgenda\obj\Debug\net8.0\ref\AplicatieTipAgenda.dll
