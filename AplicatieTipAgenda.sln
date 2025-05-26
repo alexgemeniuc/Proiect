@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicatieTipAgenda", "AplicatieTipAgenda\AplicatieTipAgenda.csproj", "{90B26391-08CC-4312-83BA-5CA43B0FBB48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfataUtilizator_AplicatieTipAgenda", "InterfataUtilizator_AplicatieTipAgenda\InterfataUtilizator_AplicatieTipAgenda.csproj", "{41C0FB87-44B5-49C2-BD29-91A0F50F915C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{90B26391-08CC-4312-83BA-5CA43B0FBB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90B26391-08CC-4312-83BA-5CA43B0FBB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90B26391-08CC-4312-83BA-5CA43B0FBB48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C0FB87-44B5-49C2-BD29-91A0F50F915C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C0FB87-44B5-49C2-BD29-91A0F50F915C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C0FB87-44B5-49C2-BD29-91A0F50F915C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C0FB87-44B5-49C2-BD29-91A0F50F915C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

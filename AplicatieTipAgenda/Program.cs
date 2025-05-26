@@ -1,4 +1,9 @@
-﻿using System;
+using System;
+using System.Configuration;
+using System.IO;
+using System.Collections.Generic;
+using System.Windows.Forms;
+
 
 namespace AplicatieTipAgenda
 {
@@ -6,17 +11,20 @@ namespace AplicatieTipAgenda
     {
         static void Main()
         {
+            string numeFisier = ConfigurationManager.AppSettings["NumeFisier"];
+            string caleCompletaFisier = Path.Combine(Directory.GetCurrentDirectory(), "activitati.txt");
+
             Agenda agenda = new Agenda();
+            AdminActivitate adminActivitate = new AdminActivitate();
+
             Console.WriteLine("Bine ai venit în aplicatia de agendă!");
 
             while (true)
             {
                 Console.WriteLine("\nMeniu:");
                 Console.WriteLine("1. Adaugă activitate");
-                Console.WriteLine("2. Afisează activitătile dintr-o zi");
-                Console.WriteLine("3. Afisează activitătile de un anumit tip");
-                Console.WriteLine("4. Afisează activitătile repetate");
-                Console.WriteLine("5. Iesire");
+                Console.WriteLine("2. Salvare in fisier");
+                Console.WriteLine("0. Iesire");
                 Console.Write("Alege o optiune: ");
                 string optiune = Console.ReadLine();
 
@@ -32,27 +40,21 @@ namespace AplicatieTipAgenda
                         Console.Write("Tip activitate: ");
                         string tip = Console.ReadLine();
 
+                        
                         agenda.AdaugaActivitate(new Activitate(titlu, descriere, data, tip));
-                        Console.WriteLine("Activitate adăugată!");
                         break;
 
                     case "2":
-                        Console.Write("Introdu data (yyyy-mm-dd): ");
-                        DateTime dataCautata = DateTime.Parse(Console.ReadLine());
-                        agenda.AfiseazaActivitatiDinZi(dataCautata);
+                        GestionareDate gestionare = new GestionareDate(caleCompletaFisier); // ← inițializare aici
+                        var lista = agenda.GetActivitati();
+                        gestionare.SalveazaActivitati(lista);
+                        Console.WriteLine("Activitățile au fost salvate cu succes!");
                         break;
 
-                    case "3":
-                        Console.Write("Introdu tipul activitătii: ");
-                        string tipCautat = Console.ReadLine();
-                        agenda.AfiseazaActivitatiDupaTip(tipCautat);
+
                         break;
 
-                    case "4":
-                        agenda.AfiseazaActivitatiRepetate();
-                        break;
-
-                    case "5":
+                    case "0":
                         Console.WriteLine("La revedere!");
                         return;
 

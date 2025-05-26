@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace AplicatieTipAgenda
 {
@@ -7,19 +7,19 @@ namespace AplicatieTipAgenda
         public string Titlu { get; set; }
         public string Descriere { get; set; }
         public DateTime Data { get; set; }
-        public string TipActivitate { get; set; }
+        public string Tip { get; set; }
 
-        public Activitate(string titlu, string descriere, DateTime data, string tipActivitate)
+        public Activitate(string titlu, string descriere, DateTime data, string tip)
         {
             Titlu = titlu;
             Descriere = descriere;
             Data = data;
-            TipActivitate = tipActivitate;
+            Tip = tip;
         }
 
         public override string ToString()
         {
-            return $"[{Data:dd/MM/yyyy HH:mm}] {Titlu} - {TipActivitate}: {Descriere}";
+            return $"{Titlu} | {Data:yyyy-MM-dd HH:mm} | {Tip} | {Descriere}";
         }
     }
 }

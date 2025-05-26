@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "W6QKhkmyB3g=",
+  "dgSpecHash": "H9ifgGsOZxs=",
   "success": true,
   "projectFilePath": "C:\\Users\\Hp\\source\\repos\\AplicatieTipAgenda\\AplicatieTipAgenda\\AplicatieTipAgenda.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Hp\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.4\\system.configuration.configurationmanager.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.4\\system.diagnostics.eventlog.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
+  ],
   "logs": []
 }
