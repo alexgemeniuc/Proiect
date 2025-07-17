@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda", "Agenda\Agenda.csproj", "{FC2B89A1-F817-49D7-91FB-EA39FF172295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfataUtilizator", "InterfataUtilizator\InterfataUtilizator.csproj", "{108A7208-ECFF-46B6-8662-FCC1CC28B013}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC2B89A1-F817-49D7-91FB-EA39FF172295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2B89A1-F817-49D7-91FB-EA39FF172295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2B89A1-F817-49D7-91FB-EA39FF172295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2B89A1-F817-49D7-91FB-EA39FF172295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{108A7208-ECFF-46B6-8662-FCC1CC28B013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108A7208-ECFF-46B6-8662-FCC1CC28B013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108A7208-ECFF-46B6-8662-FCC1CC28B013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108A7208-ECFF-46B6-8662-FCC1CC28B013}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45FF91D1-9B85-4BFA-A7E9-64F417C9D4F8}
+	EndGlobalSection
+EndGlobal
